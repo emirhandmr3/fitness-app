@@ -35,11 +35,11 @@ async function initMuscleDetail(){
   container.innerHTML=`<img loading="lazy" src="${m.image}" alt="${m.nameTr}" style="max-height:500px;width:100%;object-fit:cover" onerror="this.src='images/placeholder.svg'"/>
   <h1>${m.nameTr} <span class="muted">(${m.nameLatin})</span></h1><span class="badge">${m.region}</span>
   <div class="info-grid grid-2">
-  <div class="card"><h3>Başlangıç (Origin)</h3><p>${m.origin}</p></div>
-  <div class="card"><h3>Yapışma (Insertion)</h3><p>${m.insertion}</p></div>
+  <div class="card"><h3>Kısa Açıklama</h3><p>${m.shortDescription}</p></div>
+  <div class="card"><h3>Açıklama</h3><p>${m.description}</p></div>
   <div class="card"><h3>Fonksiyon</h3><p>${m.function}</p></div>
-  <div class="card"><h3>İnnervasyon</h3><p>${m.innervation}</p></div>
-  <div class="card"><h3>Notlar</h3><p>${m.notes}</p></div></div>
+  <div class="card"><h3>Konum</h3><p>${m.location}</p></div>
+  <div class="card"><h3>Yaygın Hareketler</h3><p>${m.commonExercises.map(s=>`<a class='badge' href='hareket-detay.html?slug=${s}'>${s}</a>`).join(' ')}</p></div></div>
   <h2 class="section-title">Bu kası çalıştıran hareketler</h2>
   <div class="grid grid-3">${related.map(e=>`<a class='card' href='hareket-detay.html?slug=${e.slug}'><img loading='lazy' src='${e.image}' onerror="this.src='images/placeholder.svg'" alt='${e.nameTr}'/><h3>${e.nameTr}</h3></a>`).join('') || '<p>İlişkili hareket yok.</p>'}</div>`;
 }

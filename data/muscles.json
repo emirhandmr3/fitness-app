@@ -1,206 +1,432 @@
 [
-    {
-          "slug": "pectoralis-major",
-          "nameTr": "Büyük Göğüs Kası",
-          "nameLatin": "Pectoralis Major",
-          "region": "Göğüs",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Pectoralis_major.png",
-          "origin": "Klavikula, sternum, kostal kıkırdaklar",
-          "insertion": "Humerus intertuberküler oluk",
-          "function": "Omuz adduksiyon ve iç rotasyon",
-          "innervation": "Medial ve lateral pektoral sinir",
-          "notes": "Push hareketlerinde ana kastır"
+  {
+    "id": 1,
+    "name": {
+      "tr": "Büyük Göğüs Kası",
+      "en": "Pectoralis Major"
     },
-    {
-          "slug": "latissimus-dorsi",
-          "nameTr": "Geniş Sırt Kası",
-          "nameLatin": "Latissimus Dorsi",
-          "region": "Sırt",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Latissimus.jpg/500px-Latissimus.jpg",
-          "origin": "Torakolomber fasya, iliak krista",
-          "insertion": "Humerus intertuberküler oluk",
-          "function": "Omuz ekstansiyon, adduksiyon",
-          "innervation": "Torakodorsal sinir",
-          "notes": "Çekiş hareketlerinde baskın"
+    "nameTr": "Büyük Göğüs Kası",
+    "nameLatin": "Pectoralis Major",
+    "slug": "pectoralis-major",
+    "group": "göğüs",
+    "region": "Göğüs",
+    "shortDescription": "Göğsün büyük kısmını oluşturan ve itiş hareketlerinde ana rol oynayan kastır.",
+    "description": "Pectoralis major, göğüs bölgesinin yüzeyel ve güçlü kasıdır. Yatay itiş, press ve sıkıştırma hareketlerinde belirgin şekilde çalışır.",
+    "function": "Omuz horizontal adduksiyonu, adduksiyon ve iç rotasyon",
+    "location": "Köprücük kemiği, sternum ve üst kaburgalardan başlayıp humerusa tutunur.",
+    "commonExercises": [
+      "barbell-bench-press",
+      "incline-dumbbell-press",
+      "push-up",
+      "cable-fly",
+      "machine-chest-press"
+    ],
+    "image": "images/muscles/pectoralis-major.svg"
+  },
+  {
+    "id": 2,
+    "name": {
+      "tr": "Küçük Göğüs Kası",
+      "en": "Pectoralis Minor"
     },
-    {
-          "slug": "deltoid-anterior",
-          "nameTr": "Ön Omuz",
-          "nameLatin": "Deltoid Anterior",
-          "region": "Omuz",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Deltoideus.png/500px-Deltoideus.png",
-          "origin": "Klavikula lateral üçte bir",
-          "insertion": "Humerus deltoid tüberozitesi",
-          "function": "Omuz fleksiyonu",
-          "innervation": "Aksiller sinir",
-          "notes": "Press hareketlerinde aktif"
+    "nameTr": "Küçük Göğüs Kası",
+    "nameLatin": "Pectoralis Minor",
+    "slug": "pectoralis-minor",
+    "group": "göğüs",
+    "region": "Göğüs",
+    "shortDescription": "Skapula stabilitesine katkı veren derin göğüs kasıdır.",
+    "description": "Pectoralis minor, pectoralis majorun altında yer alır ve omuz kuşağının kontrolünde etkilidir.",
+    "function": "Skapula protraksiyonu ve depresyonu, yardımcı solunum",
+    "location": "3-5. kaburgalardan başlayıp skapulanın korakoid çıkıntısına tutunur.",
+    "commonExercises": [
+      "push-up",
+      "cable-fly",
+      "machine-chest-press"
+    ],
+    "image": "images/placeholder.svg"
+  },
+  {
+    "id": 3,
+    "name": {
+      "tr": "Geniş Sırt Kası",
+      "en": "Latissimus Dorsi"
     },
-    {
-          "slug": "deltoid-medial",
-          "nameTr": "Orta Omuz",
-          "nameLatin": "Deltoid Medial",
-          "region": "Omuz",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Deltoid_muscle_animation.gif",
-          "origin": "Akromion",
-          "insertion": "Deltoid tüberozite",
-          "function": "Omuz abdüksiyonu",
-          "innervation": "Aksiller sinir",
-          "notes": "Lateral raise ana hedef"
+    "nameTr": "Geniş Sırt Kası",
+    "nameLatin": "Latissimus Dorsi",
+    "slug": "latissimus-dorsi",
+    "group": "sırt",
+    "region": "Sırt",
+    "shortDescription": "Sırtın genişliğini veren ana çekiş kasıdır.",
+    "description": "Latissimus dorsi, özellikle dikey çekiş hareketlerinde aktif olan büyük bir sırt kasıdır.",
+    "function": "Omuz ekstansiyonu, adduksiyon ve iç rotasyon",
+    "location": "Alt torasik-lomber bölgeden başlayıp humerusa uzanır.",
+    "commonExercises": [
+      "pull-up",
+      "lat-pulldown",
+      "barbell-row"
+    ],
+    "image": "images/muscles/latissimus-dorsi.svg"
+  },
+  {
+    "id": 4,
+    "name": {
+      "tr": "Trapez",
+      "en": "Trapezius"
     },
-    {
-          "slug": "deltoid-posterior",
-          "nameTr": "Arka Omuz",
-          "nameLatin": "Deltoid Posterior",
-          "region": "Omuz",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Deltoid_muscle_animation2.gif",
-          "origin": "Spina scapula",
-          "insertion": "Deltoid tüberozite",
-          "function": "Omuz ekstansiyon, dış rotasyon",
-          "innervation": "Aksiller sinir",
-          "notes": "Row varyasyonlarında çalışır"
+    "nameTr": "Trapez",
+    "nameLatin": "Trapezius",
+    "slug": "trapezius",
+    "group": "sırt",
+    "region": "Sırt",
+    "shortDescription": "Boyun ve üst sırt stabilitesinde görev alan geniş kas grubudur.",
+    "description": "Trapez kası üst, orta ve alt liflerden oluşur; skapulanın hareket ve kontrolünde önemlidir.",
+    "function": "Skapula elevasyon, retraksiyon ve yukarı rotasyon",
+    "location": "Kafatası tabanından orta sırt omurlarına kadar uzanır.",
+    "commonExercises": [
+      "barbell-row",
+      "face-pull",
+      "seated-cable-row"
+    ],
+    "image": "images/muscles/trapezius.svg"
+  },
+  {
+    "id": 5,
+    "name": {
+      "tr": "Romboidler",
+      "en": "Rhomboids"
     },
-    {
-          "slug": "trapezius",
-          "nameTr": "Trapez",
-          "nameLatin": "Trapezius",
-          "region": "Sırt",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Trapezius.png",
-          "origin": "Oksiput ve servikal spinöz çıkıntılar",
-          "insertion": "Klavikula, akromion",
-          "function": "Skapula elevasyon-retraksiyon",
-          "innervation": "Aksiller sinir",
-          "notes": "Üst, orta, alt lifleri vardır"
+    "nameTr": "Romboidler",
+    "nameLatin": "Rhomboids",
+    "slug": "rhomboids",
+    "group": "sırt",
+    "region": "Sırt",
+    "shortDescription": "Kürek kemiklerini birbirine yaklaştıran postür kaslarıdır.",
+    "description": "Rhomboid kasları, sırt kalınlığı ve omuz sağlığı açısından kritik stabilizatörlerdir.",
+    "function": "Skapula retraksiyonu ve aşağı rotasyon",
+    "location": "Boyun-alt sırt geçişinden skapulanın iç kenarına uzanır.",
+    "commonExercises": [
+      "seated-cable-row",
+      "face-pull",
+      "barbell-row"
+    ],
+    "image": "images/placeholder.svg"
+  },
+  {
+    "id": 6,
+    "name": {
+      "tr": "Erector Spinae",
+      "en": "Erector Spinae"
     },
-    {
-          "slug": "biceps-brachii",
-          "nameTr": "Biseps",
-          "nameLatin": "Biceps Brachii",
-          "region": "Kol",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Biceps_brachii.png",
-          "origin": "Scapula korakoid ve supraglenoid",
-          "insertion": "Radius tüberozitesi",
-          "function": "Dirsek fleksiyonu, supinasyon",
-          "innervation": "Musculocutaneous",
-          "notes": "Çift başlı kastır"
+    "nameTr": "Erector Spinae",
+    "nameLatin": "Erector Spinae",
+    "slug": "erector-spinae",
+    "group": "sırt",
+    "region": "Sırt",
+    "shortDescription": "Omurgayı dik tutan ve bel stabilitesi sağlayan kas grubudur.",
+    "description": "Erector spinae, hip hinge ve ağır kaldırışlarda omurganın nötr pozisyonunu korumaya yardım eder.",
+    "function": "Omurga ekstansiyonu ve izometrik stabilizasyon",
+    "location": "Sakrumdan başlayıp torasik-servikal bölgeye kadar uzanır.",
+    "commonExercises": [
+      "romanian-deadlift",
+      "barbell-row"
+    ],
+    "image": "images/muscles/erector-spinae.svg"
+  },
+  {
+    "id": 7,
+    "name": {
+      "tr": "Ön Omuz",
+      "en": "Anterior Deltoid"
     },
-    {
-          "slug": "triceps-brachii",
-          "nameTr": "Triseps",
-          "nameLatin": "Triceps Brachii",
-          "region": "Kol",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Triceps_brachii.png",
-          "origin": "Scapula ve humerus posterior",
-          "insertion": "Olekranon",
-          "function": "Dirsek ekstansiyonu",
-          "innervation": "Radial sinir",
-          "notes": "Üç başlı kastır"
+    "nameTr": "Ön Omuz",
+    "nameLatin": "Anterior Deltoid",
+    "slug": "deltoid-anterior",
+    "group": "omuz",
+    "region": "Omuz",
+    "shortDescription": "Öne kaldırma ve press hareketlerinde aktif omuz başıdır.",
+    "description": "Anterior deltoid, özellikle overhead ve yatay itişlerde yoğun çalışır.",
+    "function": "Omuz fleksiyonu ve horizontal adduksiyon",
+    "location": "Klavikulanın ön kısmından humerusa uzanır.",
+    "commonExercises": [
+      "overhead-press",
+      "incline-dumbbell-press",
+      "machine-chest-press"
+    ],
+    "image": "images/muscles/deltoid-anterior.svg"
+  },
+  {
+    "id": 8,
+    "name": {
+      "tr": "Orta Omuz",
+      "en": "Lateral Deltoid"
     },
-    {
-          "slug": "rectus-femoris",
-          "nameTr": "Rectus Femoris",
-          "nameLatin": "Rectus Femoris",
-          "region": "Bacak",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Rectus_femoris.png",
-          "origin": "AIIS",
-          "insertion": "Patellar tendon",
-          "function": "Diz ekstansiyon, kalça fleksiyon",
-          "innervation": "Femoral sinir",
-          "notes": "Quadriceps parçası"
+    "nameTr": "Orta Omuz",
+    "nameLatin": "Lateral Deltoid",
+    "slug": "deltoid-medial",
+    "group": "omuz",
+    "region": "Omuz",
+    "shortDescription": "Omuz genişliğini oluşturan ana deltoid başıdır.",
+    "description": "Lateral deltoid, omuzu yana açma hareketinde primer görev alır.",
+    "function": "Omuz abdüksiyonu",
+    "location": "Akromiondan başlayıp humerusa tutunur.",
+    "commonExercises": [
+      "overhead-press",
+      "dumbbell-lateral-raise",
+      "cable-lateral-raise"
+    ],
+    "image": "images/muscles/deltoid-medial.svg"
+  },
+  {
+    "id": 9,
+    "name": {
+      "tr": "Arka Omuz",
+      "en": "Posterior Deltoid"
     },
-    {
-          "slug": "biceps-femoris",
-          "nameTr": "Biceps Femoris",
-          "nameLatin": "Biceps Femoris",
-          "region": "Bacak",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Biceps_femoris_muscle_long_head.PNG",
-          "origin": "İskiyal tüberosite",
-          "insertion": "Fibula başı",
-          "function": "Diz fleksiyon, kalça ekstansiyon",
-          "innervation": "Tibial/peroneal dallar",
-          "notes": "Hamstring grubunda"
+    "nameTr": "Arka Omuz",
+    "nameLatin": "Posterior Deltoid",
+    "slug": "deltoid-posterior",
+    "group": "omuz",
+    "region": "Omuz",
+    "shortDescription": "Çekiş ve geriye açış hareketlerinde çalışan omuz başıdır.",
+    "description": "Posterior deltoid, postürü destekler ve omuz dengesinde önemli rol oynar.",
+    "function": "Omuz ekstansiyonu, horizontal abdüksiyon ve dış rotasyon",
+    "location": "Skapulanın arka yüzünden humerusa uzanır.",
+    "commonExercises": [
+      "face-pull",
+      "reverse-pec-deck",
+      "barbell-row"
+    ],
+    "image": "images/muscles/deltoid-posterior.svg"
+  },
+  {
+    "id": 10,
+    "name": {
+      "tr": "Biseps",
+      "en": "Biceps Brachii"
     },
-    {
-          "slug": "gluteus-maximus",
-          "nameTr": "Gluteus Maximus",
-          "nameLatin": "Gluteus Maximus",
-          "region": "Bacak",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Gluteus_maximus.png",
-          "origin": "İlium posterior",
-          "insertion": "İliotibial bant",
-          "function": "Kalça ekstansiyonu",
-          "innervation": "Inferior gluteal",
-          "notes": "Hip thrust ana hedef"
+    "nameTr": "Biseps",
+    "nameLatin": "Biceps Brachii",
+    "slug": "biceps-brachii",
+    "group": "kol",
+    "region": "Kol",
+    "shortDescription": "Dirsek bükme ve supinasyonda çalışan ön kol üstü kasıdır.",
+    "description": "Biceps brachii, çekiş hareketlerinde yardımcı; curl hareketlerinde primer kastır.",
+    "function": "Dirsek fleksiyonu ve önkol supinasyonu",
+    "location": "Skapuladan başlayıp radiusa tutunur.",
+    "commonExercises": [
+      "barbell-curl",
+      "dumbbell-curl",
+      "hammer-curl",
+      "pull-up"
+    ],
+    "image": "images/muscles/biceps-brachii.svg"
+  },
+  {
+    "id": 11,
+    "name": {
+      "tr": "Triseps",
+      "en": "Triceps Brachii"
     },
-    {
-          "slug": "gluteus-medius",
-          "nameTr": "Gluteus Medius",
-          "nameLatin": "Gluteus Medius",
-          "region": "Bacak",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Gluteus_medius_muscle.PNG",
-          "origin": "İlium dış yüz",
-          "insertion": "Trochanter major",
-          "function": "Kalça abdüksiyonu",
-          "innervation": "Superior gluteal",
-          "notes": "Pelvis stabilizasyonu"
+    "nameTr": "Triseps",
+    "nameLatin": "Triceps Brachii",
+    "slug": "triceps-brachii",
+    "group": "kol",
+    "region": "Kol",
+    "shortDescription": "Dirseği açan kolun arka bölümündeki güçlü kastır.",
+    "description": "Triceps, press performansında kritik rol oynar ve kol hacminin büyük kısmını oluşturur.",
+    "function": "Dirsek ekstansiyonu",
+    "location": "Skapula ve humerustan başlayıp ulna olekranonuna tutunur.",
+    "commonExercises": [
+      "triceps-pushdown",
+      "overhead-triceps-extension"
+    ],
+    "image": "images/muscles/triceps-brachii.svg"
+  },
+  {
+    "id": 12,
+    "name": {
+      "tr": "Önkol Fleksörleri",
+      "en": "Forearm Flexors"
     },
-    {
-          "slug": "gastrocnemius",
-          "nameTr": "Gastroknemius",
-          "nameLatin": "Gastrocnemius",
-          "region": "Bacak",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Gastrocnemius_muscle.jpg",
-          "origin": "Femur kondilleri",
-          "insertion": "Aşil tendonu",
-          "function": "Plantar fleksiyon",
-          "innervation": "Tibial sinir",
-          "notes": "Çift eklemli baldır"
+    "nameTr": "Önkol Fleksörleri",
+    "nameLatin": "Forearm Flexors",
+    "slug": "forearm-flexors",
+    "group": "kol",
+    "region": "Kol",
+    "shortDescription": "Kavrama gücü ve bilek fleksiyonunu sağlayan kas grubudur.",
+    "description": "Önkol fleksörleri, çekişlerde barı tutma ve bilek kontrolü için önemlidir.",
+    "function": "Bilek fleksiyonu ve parmak kavrama",
+    "location": "Önkolun iç tarafında, dirsekten ele uzanır.",
+    "commonExercises": [
+      "hammer-curl"
+    ],
+    "image": "images/placeholder.svg"
+  },
+  {
+    "id": 13,
+    "name": {
+      "tr": "Quadriceps",
+      "en": "Quadriceps"
     },
-    {
-          "slug": "soleus",
-          "nameTr": "Soleus",
-          "nameLatin": "Soleus",
-          "region": "Bacak",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Soleus_muscle.png",
-          "origin": "Tibia/fibula posterior",
-          "insertion": "Aşil tendonu",
-          "function": "Plantar fleksiyon",
-          "innervation": "Tibial sinir",
-          "notes": "Postüral baldır kası"
+    "nameTr": "Quadriceps",
+    "nameLatin": "Quadriceps",
+    "slug": "quadriceps",
+    "group": "bacak",
+    "region": "Bacak",
+    "shortDescription": "Uyluğun ön kısmındaki diz açıcı ana kas grubudur.",
+    "description": "Quadriceps; squat, lunge ve leg press hareketlerinin temel itici kasıdır.",
+    "function": "Diz ekstansiyonu",
+    "location": "Uyluğun ön yüzünde, kalça ve femurdan başlayıp patellaya uzanır.",
+    "commonExercises": [
+      "barbell-back-squat",
+      "leg-press",
+      "walking-lunge"
+    ],
+    "image": "images/muscles/rectus-femoris.svg"
+  },
+  {
+    "id": 14,
+    "name": {
+      "tr": "Hamstring",
+      "en": "Hamstrings"
     },
-    {
-          "slug": "rectus-abdominis",
-          "nameTr": "Rectus Abdominis",
-          "nameLatin": "Rectus Abdominis",
-          "region": "Gövde",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Rectus_abdominis.png",
-          "origin": "Pubis",
-          "insertion": "Ksifoid çıkıntı ve kostalar",
-          "function": "Gövde fleksiyonu",
-          "innervation": "Torakoabdominal sinirler",
-          "notes": "Karın ön duvarı"
+    "nameTr": "Hamstring",
+    "nameLatin": "Hamstrings",
+    "slug": "hamstrings",
+    "group": "bacak",
+    "region": "Bacak",
+    "shortDescription": "Uyluğun arka kısmında kalça-diz kontrolü sağlayan kastır.",
+    "description": "Hamstring kasları koşu, zıplama ve hip hinge hareketlerinde güçlü şekilde devrededir.",
+    "function": "Diz fleksiyonu ve kalça ekstansiyonu",
+    "location": "Uyluğun arka yüzünde pelvisten tibia/fibulaya uzanır.",
+    "commonExercises": [
+      "romanian-deadlift"
+    ],
+    "image": "images/muscles/biceps-femoris.svg"
+  },
+  {
+    "id": 15,
+    "name": {
+      "tr": "Gluteus Maximus",
+      "en": "Gluteus Maximus"
     },
-    {
-          "slug": "erector-spinae",
-          "nameTr": "Erector Spinae",
-          "nameLatin": "Erector Spinae",
-          "region": "Gövde",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gray389_-_Erector_spinae.png",
-          "origin": "Sakrum ve vertebralar",
-          "insertion": "Kaburgalar ve vertebralar",
-          "function": "Omurga ekstansiyonu",
-          "innervation": "Spinal sinir dorsal ramuslar",
-          "notes": "Deadliftte stabilite"
+    "nameTr": "Gluteus Maximus",
+    "nameLatin": "Gluteus Maximus",
+    "slug": "gluteus-maximus",
+    "group": "bacak",
+    "region": "Bacak",
+    "shortDescription": "Kalçanın en büyük ve güçlü ekstansör kasıdır.",
+    "description": "Gluteus maximus, squat ve hip hinge kalıplarında güç üretimi için ana kastır.",
+    "function": "Kalça ekstansiyonu ve dış rotasyon",
+    "location": "Pelvisin arka bölümünden femur ve IT banda uzanır.",
+    "commonExercises": [
+      "barbell-back-squat",
+      "romanian-deadlift",
+      "walking-lunge"
+    ],
+    "image": "images/muscles/gluteus-maximus.svg"
+  },
+  {
+    "id": 16,
+    "name": {
+      "tr": "Baldır",
+      "en": "Calves"
     },
-    {
-          "slug": "obliques",
-          "nameTr": "Oblikler",
-          "nameLatin": "External/Internal Obliques",
-          "region": "Gövde",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Illu_trunk_muscles.jpg/500px-Illu_trunk_muscles.jpg",
-          "origin": "Alt kaburgalar/iliak krista",
-          "insertion": "Linea alba",
-          "function": "Rotasyon ve lateral fleksiyon",
-          "innervation": "Interkostal sinirler",
-          "notes": "Core stabilitesi"
-    }
+    "nameTr": "Baldır",
+    "nameLatin": "Calves",
+    "slug": "calves",
+    "group": "bacak",
+    "region": "Bacak",
+    "shortDescription": "Ayak bileği itişinde görev yapan alt bacak kas grubudur.",
+    "description": "Calves; yürüyüş, koşu ve sıçrama gibi günlük-spor hareketlerinde sürekli çalışır.",
+    "function": "Plantar fleksiyon",
+    "location": "Diz altı arka bacakta gastrocnemius ve soleus katmanlarından oluşur.",
+    "commonExercises": [
+      "standing-calf-raise"
+    ],
+    "image": "images/muscles/gastrocnemius.svg"
+  },
+  {
+    "id": 17,
+    "name": {
+      "tr": "Kalça Fleksörleri",
+      "en": "Hip Flexors"
+    },
+    "nameTr": "Kalça Fleksörleri",
+    "nameLatin": "Hip Flexors",
+    "slug": "hip-flexors",
+    "group": "bacak",
+    "region": "Bacak",
+    "shortDescription": "Dizi gövdeye çekmeye yardımcı olan kas grubudur.",
+    "description": "Hip fleksörler, yürüme ve koşu mekaniğinde kritik rol oynar; uzun süre oturmada kısalabilir.",
+    "function": "Kalça fleksiyonu",
+    "location": "Bel önünden uyluğun üst bölümüne uzanır.",
+    "commonExercises": [
+      "walking-lunge"
+    ],
+    "image": "images/placeholder.svg"
+  },
+  {
+    "id": 18,
+    "name": {
+      "tr": "Rectus Abdominis",
+      "en": "Rectus Abdominis"
+    },
+    "nameTr": "Rectus Abdominis",
+    "nameLatin": "Rectus Abdominis",
+    "slug": "rectus-abdominis",
+    "group": "karın",
+    "region": "Karın",
+    "shortDescription": "Karının ön duvarında gövde fleksiyonunda aktif kastır.",
+    "description": "Rectus abdominis, gövdeyi öne bükme ve pelvis kontrolünde temel rol oynar.",
+    "function": "Gövde fleksiyonu ve karın içi basınç desteği",
+    "location": "Pubisten sternuma kadar karın ön duvarı boyunca uzanır.",
+    "commonExercises": [
+      "crunch",
+      "plank",
+      "dead-bug"
+    ],
+    "image": "images/muscles/rectus-abdominis.svg"
+  },
+  {
+    "id": 19,
+    "name": {
+      "tr": "Oblikler",
+      "en": "Obliques"
+    },
+    "nameTr": "Oblikler",
+    "nameLatin": "Obliques",
+    "slug": "obliques",
+    "group": "karın",
+    "region": "Karın",
+    "shortDescription": "Rotasyon ve yana eğilme hareketlerini yöneten yan karın kaslarıdır.",
+    "description": "Oblik kaslar, omurgayı koruyarak gövdeye dönme ve anti-rotasyon kontrolü sağlar.",
+    "function": "Gövde rotasyonu, lateral fleksiyon ve stabilizasyon",
+    "location": "Karın yan duvarında kaburgalardan leğen kemiğine uzanır.",
+    "commonExercises": [
+      "side-plank"
+    ],
+    "image": "images/muscles/obliques.svg"
+  },
+  {
+    "id": 20,
+    "name": {
+      "tr": "Transversus Abdominis",
+      "en": "Transverse Abdominis"
+    },
+    "nameTr": "Transversus Abdominis",
+    "nameLatin": "Transverse Abdominis",
+    "slug": "transverse-abdominis",
+    "group": "karın",
+    "region": "Karın",
+    "shortDescription": "Korseler gibi çalışan derin core stabilite kasıdır.",
+    "description": "Transverse abdominis, bel sağlığı için önemli olan derin karın basıncı kontrolünü destekler.",
+    "function": "Karın içi basınç oluşturma ve omurga stabilizasyonu",
+    "location": "Karın duvarının en derin katmanında yatay liflerle bulunur.",
+    "commonExercises": [
+      "plank",
+      "dead-bug"
+    ],
+    "image": "images/placeholder.svg"
+  }
 ]
