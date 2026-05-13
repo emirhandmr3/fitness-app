@@ -21,7 +21,7 @@
       "cable-fly",
       "machine-chest-press"
     ],
-    "image": "images/muscles/pectoralis-major.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Pectoralis_major.png/640px-Pectoralis_major.png"
   },
   {
     "id": 2,
@@ -43,7 +43,7 @@
       "cable-fly",
       "machine-chest-press"
     ],
-    "image": "images/placeholder.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Pectoralis_minor.png/640px-Pectoralis_minor.png"
   },
   {
     "id": 3,
@@ -65,7 +65,7 @@
       "lat-pulldown",
       "barbell-row"
     ],
-    "image": "images/muscles/latissimus-dorsi.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Latissimus_dorsi.png/640px-Latissimus_dorsi.png"
   },
   {
     "id": 4,
@@ -87,7 +87,7 @@
       "face-pull",
       "seated-cable-row"
     ],
-    "image": "images/muscles/trapezius.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Trapezius.png/640px-Trapezius.png"
   },
   {
     "id": 5,
@@ -109,7 +109,7 @@
       "face-pull",
       "barbell-row"
     ],
-    "image": "images/placeholder.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Rhomboideus_major.png/640px-Rhomboideus_major.png"
   },
   {
     "id": 6,
@@ -130,7 +130,7 @@
       "romanian-deadlift",
       "barbell-row"
     ],
-    "image": "images/muscles/erector-spinae.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Erector_spinae.png/640px-Erector_spinae.png"
   },
   {
     "id": 7,
@@ -152,7 +152,7 @@
       "incline-dumbbell-press",
       "machine-chest-press"
     ],
-    "image": "images/muscles/deltoid-anterior.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Deltoideus.png/640px-Deltoideus.png"
   },
   {
     "id": 8,
@@ -174,7 +174,7 @@
       "dumbbell-lateral-raise",
       "cable-lateral-raise"
     ],
-    "image": "images/muscles/deltoid-medial.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Deltoideus.png/640px-Deltoideus.png"
   },
   {
     "id": 9,
@@ -196,7 +196,7 @@
       "reverse-pec-deck",
       "barbell-row"
     ],
-    "image": "images/muscles/deltoid-posterior.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Deltoideus.png/640px-Deltoideus.png"
   },
   {
     "id": 10,
@@ -219,7 +219,7 @@
       "hammer-curl",
       "pull-up"
     ],
-    "image": "images/muscles/biceps-brachii.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Biceps_brachii.png/640px-Biceps_brachii.png"
   },
   {
     "id": 11,
@@ -240,7 +240,7 @@
       "triceps-pushdown",
       "overhead-triceps-extension"
     ],
-    "image": "images/muscles/triceps-brachii.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Triceps_brachii.png/640px-Triceps_brachii.png"
   },
   {
     "id": 12,
@@ -260,7 +260,7 @@
     "commonExercises": [
       "hammer-curl"
     ],
-    "image": "images/placeholder.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flexor_digitorum_superficialis.png/640px-Flexor_digitorum_superficialis.png"
   },
   {
     "id": 13,
@@ -282,7 +282,7 @@
       "leg-press",
       "walking-lunge"
     ],
-    "image": "images/muscles/rectus-femoris.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Quadriceps_femoris.png/640px-Quadriceps_femoris.png"
   },
   {
     "id": 14,
@@ -302,7 +302,7 @@
     "commonExercises": [
       "romanian-deadlift"
     ],
-    "image": "images/muscles/biceps-femoris.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Hamstrings.png/640px-Hamstrings.png"
   },
   {
     "id": 15,
@@ -324,7 +324,7 @@
       "romanian-deadlift",
       "walking-lunge"
     ],
-    "image": "images/muscles/gluteus-maximus.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Gluteus_maximus.png/640px-Gluteus_maximus.png"
   },
   {
     "id": 16,
@@ -344,7 +344,7 @@
     "commonExercises": [
       "standing-calf-raise"
     ],
-    "image": "images/muscles/gastrocnemius.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Gastrocnemius.png/640px-Gastrocnemius.png"
   },
   {
     "id": 17,
@@ -364,7 +364,7 @@
     "commonExercises": [
       "walking-lunge"
     ],
-    "image": "images/placeholder.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Iliopsoas.png/640px-Iliopsoas.png"
   },
   {
     "id": 18,
@@ -386,7 +386,7 @@
       "plank",
       "dead-bug"
     ],
-    "image": "images/muscles/rectus-abdominis.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Rectus_abdominis.png/640px-Rectus_abdominis.png"
   },
   {
     "id": 19,
@@ -406,7 +406,7 @@
     "commonExercises": [
       "side-plank"
     ],
-    "image": "images/muscles/obliques.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Obliquus_externus_abdominis.png/640px-Obliquus_externus_abdominis.png"
   },
   {
     "id": 20,
@@ -427,6 +427,6 @@
       "plank",
       "dead-bug"
     ],
-    "image": "images/placeholder.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Transversus_abdominis.png/640px-Transversus_abdominis.png"
   }
 ]
