@@ -1,0 +1,13 @@
+<!doctype html><html lang='tr'><head><meta charset='UTF-8'/><meta name='viewport' content='width=device-width,initial-scale=1'/><title>Fitness App</title><link rel='stylesheet' href='css/style.css'/></head><body>
+<nav class='navbar'><div class='container nav-inner'><a class='logo' href='index.html'>FitAnatomi</a><button id='navToggle' class='nav-toggle'>☰</button><div id='navLinks' class='nav-links'><a href='kaslar.html'>Kaslar</a><a href='hareketler.html'>Hareketler</a><button id='themeToggle'>🌙</button></div></div></nav>
+<main class='container'><section class='hero'><p class='badge'>Kas anatomisi & egzersiz rehberi</p><h1>Kasları öğren, hareketleri doğru uygula.</h1><p class='muted'>Modern ve hızlı referans sitesi.</p><p><a class='btn btn-primary' href='kaslar.html'>Kasları Keşfet</a> <a class='btn' href='hareketler.html'>Hareketleri Keşfet</a></p></section>
+<section class='stats grid grid-3' id='stats'></section>
+<h2 class='section-title'>Bölgelere Göre Kaslar</h2><section class='grid grid-3' id='regions'></section></main>
+<footer class='footer'><div class='container'>© 2026 FitAnatomi</div></footer>
+<script src='js/main.js'></script><script>
+async function initHome(){const [m,e]=await Promise.all([fetch('data/muscles.json').then(r=>r.json()),fetch('data/exercises.json').then(r=>r.json())]);
+const regions=['gogus','sirt','omuz','kol','bacak','govde']; const labels={gogus:'Göğüs',sirt:'Sırt',omuz:'Omuz',kol:'Kol',bacak:'Bacak',govde:'Gövde'};
+document.getElementById('stats').innerHTML=`<div class='card'><h3>${m.length}</h3><p>Toplam Kas</p></div><div class='card'><h3>${e.length}</h3><p>Toplam Hareket</p></div><div class='card'><h3>${new Set(m.map(x=>x.region)).size}</h3><p>Bölge Sayısı</p></div>`;
+document.getElementById('regions').innerHTML=regions.map(r=>`<a class='card' href='kaslar.html?bolge=${r}'><h3>${labels[r]}</h3><p class='muted'>Kasları görüntüle</p></a>`).join('');}
+document.addEventListener('DOMContentLoaded',initHome);
+</script></body></html>
