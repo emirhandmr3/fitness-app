@@ -21,7 +21,7 @@
       "cable-fly",
       "machine-chest-press"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Pectoralis_major.png/640px-Pectoralis_major.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Pectoralis_major.png"
   },
   {
     "id": 2,
@@ -43,7 +43,7 @@
       "cable-fly",
       "machine-chest-press"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Pectoralis_minor.png/640px-Pectoralis_minor.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Pectoralis_minor.png"
   },
   {
     "id": 3,
@@ -65,7 +65,7 @@
       "lat-pulldown",
       "barbell-row"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Latissimus_dorsi.png/640px-Latissimus_dorsi.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Latissimus_dorsi.png"
   },
   {
     "id": 4,
@@ -87,7 +87,7 @@
       "face-pull",
       "seated-cable-row"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Trapezius.png/640px-Trapezius.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Trapezius.png"
   },
   {
     "id": 5,
@@ -109,7 +109,7 @@
       "face-pull",
       "barbell-row"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Rhomboideus_major.png/640px-Rhomboideus_major.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Rhomboid_muscles.PNG"
   },
   {
     "id": 6,
@@ -130,7 +130,7 @@
       "romanian-deadlift",
       "barbell-row"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Erector_spinae.png/640px-Erector_spinae.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Erector_spinae.png"
   },
   {
     "id": 7,
@@ -152,7 +152,7 @@
       "incline-dumbbell-press",
       "machine-chest-press"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Deltoideus.png/640px-Deltoideus.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Anterior_deltoid.png"
   },
   {
     "id": 8,
@@ -174,7 +174,7 @@
       "dumbbell-lateral-raise",
       "cable-lateral-raise"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Deltoideus.png/640px-Deltoideus.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Deltoid_muscle.png"
   },
   {
     "id": 9,
@@ -196,7 +196,7 @@
       "reverse-pec-deck",
       "barbell-row"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Deltoideus.png/640px-Deltoideus.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Posterior_deltoid.png"
   },
   {
     "id": 10,
@@ -219,7 +219,7 @@
       "hammer-curl",
       "pull-up"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Biceps_brachii.png/640px-Biceps_brachii.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Biceps_brachii.png"
   },
   {
     "id": 11,
@@ -240,7 +240,7 @@
       "triceps-pushdown",
       "overhead-triceps-extension"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Triceps_brachii.png/640px-Triceps_brachii.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Triceps_brachii.png"
   },
   {
     "id": 12,
@@ -260,7 +260,7 @@
     "commonExercises": [
       "hammer-curl"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flexor_digitorum_superficialis.png/640px-Flexor_digitorum_superficialis.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Flexor_carpi_radialis.png"
   },
   {
     "id": 13,
@@ -282,7 +282,7 @@
       "leg-press",
       "walking-lunge"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Quadriceps_femoris.png/640px-Quadriceps_femoris.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Quadriceps_femoris.png"
   },
   {
     "id": 14,
@@ -302,7 +302,7 @@
     "commonExercises": [
       "romanian-deadlift"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Hamstrings.png/640px-Hamstrings.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Biceps_femoris.png"
   },
   {
     "id": 15,
@@ -324,7 +324,7 @@
       "romanian-deadlift",
       "walking-lunge"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Gluteus_maximus.png/640px-Gluteus_maximus.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Gluteus_maximus.png"
   },
   {
     "id": 16,
@@ -344,7 +344,7 @@
     "commonExercises": [
       "standing-calf-raise"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Gastrocnemius.png/640px-Gastrocnemius.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Gastrocnemius.png"
   },
   {
     "id": 17,
@@ -364,7 +364,7 @@
     "commonExercises": [
       "walking-lunge"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Iliopsoas.png/640px-Iliopsoas.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Iliopsoas.png"
   },
   {
     "id": 18,
@@ -386,7 +386,7 @@
       "plank",
       "dead-bug"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Rectus_abdominis.png/640px-Rectus_abdominis.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Rectus_abdominis.png"
   },
   {
     "id": 19,
@@ -406,7 +406,7 @@
     "commonExercises": [
       "side-plank"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Obliquus_externus_abdominis.png/640px-Obliquus_externus_abdominis.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Obliquus_externus_abdominis.png"
   },
   {
     "id": 20,
@@ -427,6 +427,6 @@
       "plank",
       "dead-bug"
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Transversus_abdominis.png/640px-Transversus_abdominis.png"
+    "image": "https://en.wikipedia.org/wiki/Special:FilePath/Transversus_abdominis.png"
   }
 ]
