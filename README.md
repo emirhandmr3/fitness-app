@@ -25,7 +25,8 @@ Alternatif: VS Code **Live Server**.
 ## Görsel Ekleme
 - Kas görselleri: `images/muscles/`
 - Hareket görselleri: `images/exercises/`
-- JSON içinde ilgili `image` yolunu belirtin.
+- Önerilen format: `.jpg` (ör. `images/muscles/pectoralis-major.jpg`, `images/exercises/bench-press.jpg`).
+- JPG dosyasını aynı isimle değiştirerek görseli kolayca güncelleyebilirsiniz.
 
 ## GitHub Pages Deploy
 1. GitHub repo → **Settings** → **Pages**

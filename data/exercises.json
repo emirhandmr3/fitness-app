@@ -1,17 +1,311 @@
 [
-{"slug":"bench-press","name":"Bench Press","nameTr":"Bench Pres","image":"images/exercises/bench-press.png","type":"compound","category":"push","equipment":"barbell","primaryMuscles":["pectoralis-major","triceps-brachii"],"secondaryMuscles":["deltoid-anterior"],"movementPlane":"Sagittal","jointActions":"Omuz fleksiyonu, dirsek ekstansiyonu","commonMistakes":"Dirsekleri çok açmak","regression":"Dumbbell bench press","progression":"Pause bench press"},
-{"slug":"squat","name":"Squat","nameTr":"Barbell Squat","image":"images/exercises/squat.png","type":"compound","category":"legs","equipment":"barbell","primaryMuscles":["rectus-femoris","gluteus-maximus"],"secondaryMuscles":["erector-spinae"],"movementPlane":"Sagittal","jointActions":"Kalça/diz fleksiyon-ekstansiyon","commonMistakes":"Dizin içe kaçması","regression":"Goblet squat","progression":"Pause squat"},
-{"slug":"deadlift","name":"Deadlift","nameTr":"Deadlift","image":"images/exercises/deadlift.png","type":"compound","category":"pull","equipment":"barbell","primaryMuscles":["erector-spinae","gluteus-maximus"],"secondaryMuscles":["biceps-femoris","trapezius"],"movementPlane":"Sagittal","jointActions":"Kalça ekstansiyonu","commonMistakes":"Bel yuvarlamak","regression":"Kettlebell deadlift","progression":"Deficit deadlift"},
-{"slug":"overhead-press","name":"Overhead Press","nameTr":"Overhead Press","image":"images/exercises/overhead-press.png","type":"compound","category":"push","equipment":"barbell","primaryMuscles":["deltoid-anterior","triceps-brachii"],"secondaryMuscles":["deltoid-medial"],"movementPlane":"Frontal","jointActions":"Omuz abdüksiyon/fleksiyon","commonMistakes":"Bel hiperekstansiyonu","regression":"Seated dumbbell press","progression":"Push press"},
-{"slug":"barbell-row","name":"Barbell Row","nameTr":"Barbell Row","image":"images/exercises/barbell-row.png","type":"compound","category":"pull","equipment":"barbell","primaryMuscles":["latissimus-dorsi","trapezius"],"secondaryMuscles":["biceps-brachii","deltoid-posterior"],"movementPlane":"Transverse","jointActions":"Omuz ekstansiyonu, skapular retraksiyon","commonMistakes":"Momentum kullanmak","regression":"Chest-supported row","progression":"Pendlay row"},
-{"slug":"pull-up","name":"Pull Up","nameTr":"Barfiks","image":"images/exercises/pull-up.png","type":"compound","category":"pull","equipment":"bodyweight","primaryMuscles":["latissimus-dorsi","biceps-brachii"],"secondaryMuscles":["trapezius"],"movementPlane":"Frontal","jointActions":"Omuz adduksiyon, dirsek fleksiyon","commonMistakes":"Yarım tekrar","regression":"Band-assisted pull-up","progression":"Weighted pull-up"},
-{"slug":"lat-pulldown","name":"Lat Pulldown","nameTr":"Lat Pulldown","image":"images/exercises/lat-pulldown.png","type":"compound","category":"pull","equipment":"cable","primaryMuscles":["latissimus-dorsi"],"secondaryMuscles":["biceps-brachii"],"movementPlane":"Frontal","jointActions":"Omuz adduksiyon","commonMistakes":"Barı boyuna çekmek","regression":"Machine pulldown","progression":"Single-arm pulldown"},
-{"slug":"leg-press","name":"Leg Press","nameTr":"Leg Press","image":"images/exercises/leg-press.png","type":"compound","category":"legs","equipment":"machine","primaryMuscles":["rectus-femoris","gluteus-maximus"],"secondaryMuscles":["biceps-femoris"],"movementPlane":"Sagittal","jointActions":"Diz/kalça ekstansiyon","commonMistakes":"Topuk kaldırmak","regression":"Bodyweight squat","progression":"Single-leg press"},
-{"slug":"romanian-deadlift","name":"Romanian Deadlift","nameTr":"Romanian Deadlift","image":"images/exercises/romanian-deadlift.png","type":"compound","category":"legs","equipment":"barbell","primaryMuscles":["biceps-femoris","gluteus-maximus"],"secondaryMuscles":["erector-spinae"],"movementPlane":"Sagittal","jointActions":"Kalça hinge","commonMistakes":"Barı vücuttan uzaklaştırmak","regression":"Dumbbell RDL","progression":"Single-leg RDL"},
-{"slug":"bicep-curl","name":"Bicep Curl","nameTr":"Biceps Curl","image":"images/exercises/bicep-curl.png","type":"isolation","category":"pull","equipment":"dumbbell","primaryMuscles":["biceps-brachii"],"secondaryMuscles":[],"movementPlane":"Sagittal","jointActions":"Dirsek fleksiyon","commonMistakes":"Sallanmak","regression":"Cable curl","progression":"Incline curl"},
-{"slug":"tricep-pushdown","name":"Tricep Pushdown","nameTr":"Triceps Pushdown","image":"images/exercises/tricep-pushdown.png","type":"isolation","category":"push","equipment":"cable","primaryMuscles":["triceps-brachii"],"secondaryMuscles":[],"movementPlane":"Sagittal","jointActions":"Dirsek ekstansiyon","commonMistakes":"Dirseği öne kaçırmak","regression":"Band pushdown","progression":"Overhead rope extension"},
-{"slug":"lateral-raise","name":"Lateral Raise","nameTr":"Lateral Raise","image":"images/exercises/lateral-raise.png","type":"isolation","category":"push","equipment":"dumbbell","primaryMuscles":["deltoid-medial"],"secondaryMuscles":["trapezius"],"movementPlane":"Frontal","jointActions":"Omuz abdüksiyonu","commonMistakes":"Trapeze yüklenmek","regression":"Cable lateral raise","progression":"Leaning lateral raise"},
-{"slug":"plank","name":"Plank","nameTr":"Plank","image":"images/exercises/plank.png","type":"isolation","category":"core","equipment":"bodyweight","primaryMuscles":["rectus-abdominis","obliques"],"secondaryMuscles":["erector-spinae"],"movementPlane":"Isometric","jointActions":"Anti-ekstansiyon","commonMistakes":"Kalçayı düşürmek","regression":"Knee plank","progression":"RKC plank"},
-{"slug":"hip-thrust","name":"Hip Thrust","nameTr":"Hip Thrust","image":"images/exercises/hip-thrust.png","type":"compound","category":"legs","equipment":"barbell","primaryMuscles":["gluteus-maximus"],"secondaryMuscles":["biceps-femoris","gluteus-medius"],"movementPlane":"Sagittal","jointActions":"Kalça ekstansiyon","commonMistakes":"Belden itmek","regression":"Glute bridge","progression":"Single-leg hip thrust"},
-{"slug":"dips","name":"Dips","nameTr":"Dips","image":"images/exercises/dips.png","type":"compound","category":"push","equipment":"bodyweight","primaryMuscles":["pectoralis-major","triceps-brachii"],"secondaryMuscles":["deltoid-anterior"],"movementPlane":"Sagittal","jointActions":"Omuz fleksiyon, dirsek ekstansiyon","commonMistakes":"Omuzları kulaklara çekmek","regression":"Bench dip","progression":"Weighted dips"}
+  {
+    "slug": "bench-press",
+    "name": "Bench Press",
+    "nameTr": "Bench Pres",
+    "image": "images/exercises/bench-press.jpg",
+    "type": "compound",
+    "category": "push",
+    "equipment": "barbell",
+    "primaryMuscles": [
+      "pectoralis-major",
+      "triceps-brachii"
+    ],
+    "secondaryMuscles": [
+      "deltoid-anterior"
+    ],
+    "movementPlane": "Sagittal",
+    "jointActions": "Omuz fleksiyonu, dirsek ekstansiyonu",
+    "commonMistakes": "Dirsekleri çok açmak",
+    "regression": "Dumbbell bench press",
+    "progression": "Pause bench press"
+  },
+  {
+    "slug": "squat",
+    "name": "Squat",
+    "nameTr": "Barbell Squat",
+    "image": "images/exercises/squat.jpg",
+    "type": "compound",
+    "category": "legs",
+    "equipment": "barbell",
+    "primaryMuscles": [
+      "rectus-femoris",
+      "gluteus-maximus"
+    ],
+    "secondaryMuscles": [
+      "erector-spinae"
+    ],
+    "movementPlane": "Sagittal",
+    "jointActions": "Kalça/diz fleksiyon-ekstansiyon",
+    "commonMistakes": "Dizin içe kaçması",
+    "regression": "Goblet squat",
+    "progression": "Pause squat"
+  },
+  {
+    "slug": "deadlift",
+    "name": "Deadlift",
+    "nameTr": "Deadlift",
+    "image": "images/exercises/deadlift.jpg",
+    "type": "compound",
+    "category": "pull",
+    "equipment": "barbell",
+    "primaryMuscles": [
+      "erector-spinae",
+      "gluteus-maximus"
+    ],
+    "secondaryMuscles": [
+      "biceps-femoris",
+      "trapezius"
+    ],
+    "movementPlane": "Sagittal",
+    "jointActions": "Kalça ekstansiyonu",
+    "commonMistakes": "Bel yuvarlamak",
+    "regression": "Kettlebell deadlift",
+    "progression": "Deficit deadlift"
+  },
+  {
+    "slug": "overhead-press",
+    "name": "Overhead Press",
+    "nameTr": "Overhead Press",
+    "image": "images/exercises/overhead-press.jpg",
+    "type": "compound",
+    "category": "push",
+    "equipment": "barbell",
+    "primaryMuscles": [
+      "deltoid-anterior",
+      "triceps-brachii"
+    ],
+    "secondaryMuscles": [
+      "deltoid-medial"
+    ],
+    "movementPlane": "Frontal",
+    "jointActions": "Omuz abdüksiyon/fleksiyon",
+    "commonMistakes": "Bel hiperekstansiyonu",
+    "regression": "Seated dumbbell press",
+    "progression": "Push press"
+  },
+  {
+    "slug": "barbell-row",
+    "name": "Barbell Row",
+    "nameTr": "Barbell Row",
+    "image": "images/exercises/barbell-row.jpg",
+    "type": "compound",
+    "category": "pull",
+    "equipment": "barbell",
+    "primaryMuscles": [
+      "latissimus-dorsi",
+      "trapezius"
+    ],
+    "secondaryMuscles": [
+      "biceps-brachii",
+      "deltoid-posterior"
+    ],
+    "movementPlane": "Transverse",
+    "jointActions": "Omuz ekstansiyonu, skapular retraksiyon",
+    "commonMistakes": "Momentum kullanmak",
+    "regression": "Chest-supported row",
+    "progression": "Pendlay row"
+  },
+  {
+    "slug": "pull-up",
+    "name": "Pull Up",
+    "nameTr": "Barfiks",
+    "image": "images/exercises/pull-up.jpg",
+    "type": "compound",
+    "category": "pull",
+    "equipment": "bodyweight",
+    "primaryMuscles": [
+      "latissimus-dorsi",
+      "biceps-brachii"
+    ],
+    "secondaryMuscles": [
+      "trapezius"
+    ],
+    "movementPlane": "Frontal",
+    "jointActions": "Omuz adduksiyon, dirsek fleksiyon",
+    "commonMistakes": "Yarım tekrar",
+    "regression": "Band-assisted pull-up",
+    "progression": "Weighted pull-up"
+  },
+  {
+    "slug": "lat-pulldown",
+    "name": "Lat Pulldown",
+    "nameTr": "Lat Pulldown",
+    "image": "images/exercises/lat-pulldown.jpg",
+    "type": "compound",
+    "category": "pull",
+    "equipment": "cable",
+    "primaryMuscles": [
+      "latissimus-dorsi"
+    ],
+    "secondaryMuscles": [
+      "biceps-brachii"
+    ],
+    "movementPlane": "Frontal",
+    "jointActions": "Omuz adduksiyon",
+    "commonMistakes": "Barı boyuna çekmek",
+    "regression": "Machine pulldown",
+    "progression": "Single-arm pulldown"
+  },
+  {
+    "slug": "leg-press",
+    "name": "Leg Press",
+    "nameTr": "Leg Press",
+    "image": "images/exercises/leg-press.jpg",
+    "type": "compound",
+    "category": "legs",
+    "equipment": "machine",
+    "primaryMuscles": [
+      "rectus-femoris",
+      "gluteus-maximus"
+    ],
+    "secondaryMuscles": [
+      "biceps-femoris"
+    ],
+    "movementPlane": "Sagittal",
+    "jointActions": "Diz/kalça ekstansiyon",
+    "commonMistakes": "Topuk kaldırmak",
+    "regression": "Bodyweight squat",
+    "progression": "Single-leg press"
+  },
+  {
+    "slug": "romanian-deadlift",
+    "name": "Romanian Deadlift",
+    "nameTr": "Romanian Deadlift",
+    "image": "images/exercises/romanian-deadlift.jpg",
+    "type": "compound",
+    "category": "legs",
+    "equipment": "barbell",
+    "primaryMuscles": [
+      "biceps-femoris",
+      "gluteus-maximus"
+    ],
+    "secondaryMuscles": [
+      "erector-spinae"
+    ],
+    "movementPlane": "Sagittal",
+    "jointActions": "Kalça hinge",
+    "commonMistakes": "Barı vücuttan uzaklaştırmak",
+    "regression": "Dumbbell RDL",
+    "progression": "Single-leg RDL"
+  },
+  {
+    "slug": "bicep-curl",
+    "name": "Bicep Curl",
+    "nameTr": "Biceps Curl",
+    "image": "images/exercises/bicep-curl.jpg",
+    "type": "isolation",
+    "category": "pull",
+    "equipment": "dumbbell",
+    "primaryMuscles": [
+      "biceps-brachii"
+    ],
+    "secondaryMuscles": [],
+    "movementPlane": "Sagittal",
+    "jointActions": "Dirsek fleksiyon",
+    "commonMistakes": "Sallanmak",
+    "regression": "Cable curl",
+    "progression": "Incline curl"
+  },
+  {
+    "slug": "tricep-pushdown",
+    "name": "Tricep Pushdown",
+    "nameTr": "Triceps Pushdown",
+    "image": "images/exercises/tricep-pushdown.jpg",
+    "type": "isolation",
+    "category": "push",
+    "equipment": "cable",
+    "primaryMuscles": [
+      "triceps-brachii"
+    ],
+    "secondaryMuscles": [],
+    "movementPlane": "Sagittal",
+    "jointActions": "Dirsek ekstansiyon",
+    "commonMistakes": "Dirseği öne kaçırmak",
+    "regression": "Band pushdown",
+    "progression": "Overhead rope extension"
+  },
+  {
+    "slug": "lateral-raise",
+    "name": "Lateral Raise",
+    "nameTr": "Lateral Raise",
+    "image": "images/exercises/lateral-raise.jpg",
+    "type": "isolation",
+    "category": "push",
+    "equipment": "dumbbell",
+    "primaryMuscles": [
+      "deltoid-medial"
+    ],
+    "secondaryMuscles": [
+      "trapezius"
+    ],
+    "movementPlane": "Frontal",
+    "jointActions": "Omuz abdüksiyonu",
+    "commonMistakes": "Trapeze yüklenmek",
+    "regression": "Cable lateral raise",
+    "progression": "Leaning lateral raise"
+  },
+  {
+    "slug": "plank",
+    "name": "Plank",
+    "nameTr": "Plank",
+    "image": "images/exercises/plank.jpg",
+    "type": "isolation",
+    "category": "core",
+    "equipment": "bodyweight",
+    "primaryMuscles": [
+      "rectus-abdominis",
+      "obliques"
+    ],
+    "secondaryMuscles": [
+      "erector-spinae"
+    ],
+    "movementPlane": "Isometric",
+    "jointActions": "Anti-ekstansiyon",
+    "commonMistakes": "Kalçayı düşürmek",
+    "regression": "Knee plank",
+    "progression": "RKC plank"
+  },
+  {
+    "slug": "hip-thrust",
+    "name": "Hip Thrust",
+    "nameTr": "Hip Thrust",
+    "image": "images/exercises/hip-thrust.jpg",
+    "type": "compound",
+    "category": "legs",
+    "equipment": "barbell",
+    "primaryMuscles": [
+      "gluteus-maximus"
+    ],
+    "secondaryMuscles": [
+      "biceps-femoris",
+      "gluteus-medius"
+    ],
+    "movementPlane": "Sagittal",
+    "jointActions": "Kalça ekstansiyon",
+    "commonMistakes": "Belden itmek",
+    "regression": "Glute bridge",
+    "progression": "Single-leg hip thrust"
+  },
+  {
+    "slug": "dips",
+    "name": "Dips",
+    "nameTr": "Dips",
+    "image": "images/exercises/dips.jpg",
+    "type": "compound",
+    "category": "push",
+    "equipment": "bodyweight",
+    "primaryMuscles": [
+      "pectoralis-major",
+      "triceps-brachii"
+    ],
+    "secondaryMuscles": [
+      "deltoid-anterior"
+    ],
+    "movementPlane": "Sagittal",
+    "jointActions": "Omuz fleksiyon, dirsek ekstansiyon",
+    "commonMistakes": "Omuzları kulaklara çekmek",
+    "regression": "Bench dip",
+    "progression": "Weighted dips"
+  }
 ]
